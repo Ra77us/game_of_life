@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="game_of_life"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\Libraries\;CMake Files\..\..\..\Libraries\SFML-2.5.1\;CMake Files\..\..\..\Libraries\SFML-2.5.1\lib\;CMake Files\..\..\..\Libraries\SFML-2.5.1\lib\cmake\;CMake Files\..\..\..\Libraries\SFML-2.5.1\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game_of_life">
+				<Option output="/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug/game_of_life" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rattus/Pulpit/project_cpp/game_of_life/SFML_INCLUDE_DIR"/>
+					<Add directory="/home/rattus/Libraries/SFML-2.5.1/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 game_of_life"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game_of_life/fast">
+				<Option output="/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug/game_of_life" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rattus/Pulpit/project_cpp/game_of_life/SFML_INCLUDE_DIR"/>
+					<Add directory="/home/rattus/Libraries/SFML-2.5.1/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 game_of_life/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/rattus/Pulpit/project_cpp/game_of_life/Config/consts.h">
+			<Option target="game_of_life"/>
+		</Unit>
+		<Unit filename="/home/rattus/Pulpit/project_cpp/game_of_life/Logic/Simulation/board.cpp">
+			<Option target="game_of_life"/>
+		</Unit>
+		<Unit filename="/home/rattus/Pulpit/project_cpp/game_of_life/Logic/Simulation/board.h">
+			<Option target="game_of_life"/>
+		</Unit>
+		<Unit filename="/home/rattus/Pulpit/project_cpp/game_of_life/Logic/Simulation/cell.cpp">
+			<Option target="game_of_life"/>
+		</Unit>
+		<Unit filename="/home/rattus/Pulpit/project_cpp/game_of_life/Logic/Simulation/cell.h">
+			<Option target="game_of_life"/>
+		</Unit>
+		<Unit filename="/home/rattus/Pulpit/project_cpp/game_of_life/Logic/Spawning/spawner.cpp">
+			<Option target="game_of_life"/>
+		</Unit>
+		<Unit filename="/home/rattus/Pulpit/project_cpp/game_of_life/Logic/Spawning/spawner.h">
+			<Option target="game_of_life"/>
+		</Unit>
+		<Unit filename="/home/rattus/Pulpit/project_cpp/game_of_life/Logic/statuses.h">
+			<Option target="game_of_life"/>
+		</Unit>
+		<Unit filename="/home/rattus/Pulpit/project_cpp/game_of_life/UI/cell_painter.cpp">
+			<Option target="game_of_life"/>
+		</Unit>
+		<Unit filename="/home/rattus/Pulpit/project_cpp/game_of_life/UI/cell_painter.h">
+			<Option target="game_of_life"/>
+		</Unit>
+		<Unit filename="/home/rattus/Pulpit/project_cpp/game_of_life/UI/window_wrapper.cpp">
+			<Option target="game_of_life"/>
+		</Unit>
+		<Unit filename="/home/rattus/Pulpit/project_cpp/game_of_life/UI/window_wrapper.h">
+			<Option target="game_of_life"/>
+		</Unit>
+		<Unit filename="/home/rattus/Pulpit/project_cpp/game_of_life/main.cpp">
+			<Option target="game_of_life"/>
+		</Unit>
+		<Unit filename="/home/rattus/Pulpit/project_cpp/game_of_life/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/rattus/Pulpit/project_cpp/game_of_life/../../../Libraries/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Libraries\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/rattus/Pulpit/project_cpp/game_of_life/../../../Libraries/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Libraries\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/rattus/Pulpit/project_cpp/game_of_life/../../../Libraries/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Libraries\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/rattus/Pulpit/project_cpp/game_of_life/../../../Libraries/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Libraries\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/rattus/Pulpit/project_cpp/game_of_life/../../../Libraries/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Libraries\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

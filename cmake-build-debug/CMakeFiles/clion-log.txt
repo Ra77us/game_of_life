@@ -1,0 +1,8 @@
+/home/rattus/clion-2020.3.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/rattus/Pulpit/project_cpp/game_of_life
+-- Found SFML 2.5.1 in /home/rattus/Libraries/SFML-2.5.1/lib/cmake/SFML
+-- SFML_INCLUDE_DIR: /home/rattus/Libraries/SFML-2.5.1/include
+-- SFML_LIBRARIES: 
+-- SFML_VERSION: 2.5.1
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rattus/Pulpit/project_cpp/game_of_life/cmake-build-debug
